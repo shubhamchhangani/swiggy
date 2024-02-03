@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: "PT Sans", "Lato", Calibri, sans-serif;
+  }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    height: 15vh;
+    margin-bottom: 0.7rem;
+}
+
+.logo-image{
+    width: 7rem;
+    height: 4.5rem;
+}
+
+
+
+.nav-container > ul{
+    margin-top: 0.1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.nav-container > ul > li {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search-container{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.searchBtn{
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid orange;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.filterButtons{
+    
+    text-align: center;
+    margin: 1rem;
+}
+
+.filterButtons > button{
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: orange;
+    cursor: pointer;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.body-container{
+    margin-top: 0.5rem;
+    
+}
+
+.restaurant-card{
+    border: 1px solid orange;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 32rem;
+}
+
+.restaurant-card:hover{
+    border: 1px solid black;
+}
+
+.restaurant-card > img{
+    width: 14rem;
+    height: 14rem;
+    margin: 0.5rem;
+}
+
+.restaurant-container{
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    border: 2px solid orange;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+
+.input{
+    margin: auto;
+    height: 2.2rem;
+    width: 65vw;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.exploreBtn{
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.exploreBtn:hover{
+    border: 2px solid red;
+    background-color: cyan;
+}
+
+.restaurant-info-container{
+    background-color: grey;
+    
+    padding: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-image > img{
+    width: 15rem;
+    height: 12rem;
+    border-radius: 5%;
+}
+
+.restaurant-name {
+    text-decoration: solid;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.restaurant-cuisines{
+    font-size: 1.5rem;
+}
+
+.restaurant-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.star-icon{
+    width: 3rem;
+}
+
+.promoted-label{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 0.5rem;
+}
+
+.res-menu-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-menu-heading-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+    padding: 0.3rem;
+    margin-bottom: 0.8rem;
+    width: 55vw;
+    height: 3rem;
+    border-style: solid;
+	border-width: 1px;
+	border-color: #14326F;
+	background-color: #2257BF;
+	box-shadow: 0 0.25em 7px 0px #14326F, 0 4px 20px 5px rgba(0, 0, 0, 0.75);
+	color: #FDFBF7;
+}
+
+.arrow-down-icon{
+    width: 1.2rem;
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+
+.item-description-container{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 55vw;
+}
+
+.item-title{
+    font-size: 1.5rem;
+}
+
+.item-price{
+    font-size: 1.3rem;
+}
+
+.item-description{
+    font-size: 1.3rem;
+    width: 24rem;
+}
+
+.add-btn{
+    margin-top: 0.3rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: orange;
+    cursor: pointer;
+    width: 6rem;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.add-btn:hover{
+    border: 2px solid orange;
+    background-color: lightblue;
+}
+
+.item-image{
+    height: 25vh;
+    
+}
+
+.login-container{
+    border: 2px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    background-color: lightgoldenrodyellow;
+}
+
+.login-label{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.login-input{
+    width: 20vw;
+    border-radius: 7px;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.login-submit-btn{
+    padding: 0.2rem 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid orange;
+}
+
+.login-submit-btn:hover{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
